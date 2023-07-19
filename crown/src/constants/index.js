@@ -49,22 +49,22 @@ export const footerLinks = [
         links: [
           {
             name: "Lunch",
-            data: "www.google.com",
+            link: "/lunch_menu",
             target: "_self",
           },
           {
             name: "Evening",
-            link: "www.google.com",
+            link: "/evening_menu",
             target: "_self",
           },
           {
             name: "Sunday",
-            link: "www.google.com",
+            link: "/sunday_menu",
             target: "_self",
           },
           {
-            name: "Children",
-            link: "www.google.com",
+            name: "Children's",
+            link: "/childrens_menu",
             target: "_self",
           },
         ],
@@ -111,14 +111,13 @@ const heroImages = [
   },
 ]
 
-const menuImages = [
+export const menuImages = [
   {
-    id: "lunchMenu",
+    id: "",
     title: "Lunch Menu",
-    img: "",
+    img: {meal1},
     alt: "Lunch Menu Image",
     body: "Our Lunch Menu packed with all your favorites and light bites is available 12-4 Mon - Sat.",
-    link: "",
   },
   {
     id: "eveningMenu",
@@ -126,7 +125,6 @@ const menuImages = [
     img: "",
     alt: "Evening Menu Image",
     body: "",
-    link: "",
   },
   {
     id: "sundayMenu",
@@ -134,15 +132,13 @@ const menuImages = [
     img: "",
     alt: "Sunday Lunch Menu Image",
     body: "",
-    link: "",
   },
   {
     id: "kidsMenu",
-    title: "Childrens Menu",
+    title: "Children's Menu",
     img: "",
     alt: "Sunday Lunch Menu Image",
     body: "",
-    link: "",
   },
   {
     id: "wineMenu",
@@ -150,6 +146,5 @@ const menuImages = [
     img: "",
     alt: "Sunday Lunch Menu Image",
     body: "",
-    link: "",
   },
 ]

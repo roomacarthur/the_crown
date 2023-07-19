@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styles';
 
 const Bookings = () => {
   return (
-    <div>Bookings</div>
+    <div className={`${styles.flexStart} bg-background`}>
+    <div className={`${styles.boxWidth}`}>
+      <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+        <h1 className={`${styles.heading2}`}>Bookings</h1>
+      </div>
+      </section>
+    </div>
+  </div>
   )
 }
 

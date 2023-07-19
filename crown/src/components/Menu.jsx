@@ -7,7 +7,7 @@ const Menus = () => {
       <div className={`${styles.boxWidth}`}>
         <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
           <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-            <h1 className={`${styles.heading2}`}>Our Menus</h1>
+            <h1 className={`${styles.heading2}`}>Menu</h1>
           </div>
       </section>
     </div>
