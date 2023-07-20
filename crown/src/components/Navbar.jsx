@@ -39,7 +39,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`font-roboto font-bold tracking-[1.5px]cursor-pointer text-[16px] text-background hover:text-white ${index === navLinks.length -1 ? "mb-o" : "mb-4"}`}>
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
           ))}
         </ul>

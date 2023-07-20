@@ -1,5 +1,5 @@
 import React from 'react';
-import { meal1, meal2, beer, ribblehead } from "../assets";
+import { meal1, steak, beer, ribblehead } from "../assets";
 import styles, { layout } from "../styles";
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
     </section>
     <section className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
-        <img src={meal2} alt="The Crown" className="max-w-[500px] h-[100%] rounded-lg" />
+        <img src={steak} alt="The Crown" className="max-w-[500px] h-[100%] rounded-lg" />
       </div>
       <div className={layout.sectionInfo}>
         <span className='relative left-[-10px] text-[16px] uppercase text-accent tracking-[1.5px] font-roboto font-bold'>

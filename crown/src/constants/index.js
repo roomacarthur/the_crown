@@ -1,4 +1,4 @@
-import { facebook, instagram, untappd, meal1 } from "../assets";
+import { facebook, instagram, untappd, meal1, steak, sundayLunch, wine, kidsMeal } from "../assets";
 
 export const navLinks = [
     {
@@ -113,37 +113,41 @@ const heroImages = [
 
 export const menuImages = [
   {
-    id: "",
+    id: "lunch_menu",
     title: "Lunch Menu",
-    img: {meal1},
+    img: meal1,
     alt: "Lunch Menu Image",
-    body: "Our Lunch Menu packed with all your favorites and light bites is available 12-4 Mon - Sat.",
+    body: "Our Lunch Menu is packed with all your favorites and light bites ",
+    times: "Mon-Sat | 12:00 - 16:00"
   },
   {
-    id: "eveningMenu",
+    id: "evening_menu",
     title: "Evening Menu",
-    img: "",
+    img: steak,
     alt: "Evening Menu Image",
     body: "",
+    times: "",
   },
   {
-    id: "sundayMenu",
+    id: "sunday_menu",
     title: "Sunday Lunch Menu",
-    img: "",
+    img: sundayLunch,
     alt: "Sunday Lunch Menu Image",
     body: "",
+    times: "",
   },
   {
-    id: "kidsMenu",
+    id: "childrens_menu",
     title: "Children's Menu",
-    img: "",
+    img: kidsMeal,
     alt: "Sunday Lunch Menu Image",
     body: "",
+    times: "Available all week.",
   },
   {
-    id: "wineMenu",
+    id: "wine_menu",
     title: "Wine Menu",
-    img: "",
+    img: wine,
     alt: "Sunday Lunch Menu Image",
     body: "",
   },
