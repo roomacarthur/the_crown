@@ -58,6 +58,8 @@ export const Lunch_Menu = [
             price: "",
         },
       ],
+    },
+    {
       title: "Wraps",
       links: [
         {
@@ -66,6 +68,8 @@ export const Lunch_Menu = [
             price: "£7.95",
           },
       ],
+    },
+    {
       title: "Salads",
       links: [
         {
@@ -74,6 +78,8 @@ export const Lunch_Menu = [
             price: "£7.95",
           },
       ],
+    },
+    {
       title: "Sandwiches",
       links: [
         {

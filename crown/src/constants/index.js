@@ -118,7 +118,7 @@ export const menuImages = [
     img: meal1,
     alt: "Lunch Menu Image",
     body: "Our Lunch Menu is packed with all your favorites and light bites ",
-    times: "Mon-Sat | 12:00 - 16:00"
+    times: "Mon-Sat | 12:00 - 15:00"
   },
   {
     id: "evening_menu",
@@ -126,7 +126,7 @@ export const menuImages = [
     img: steak,
     alt: "Evening Menu Image",
     body: "",
-    times: "",
+    times: "Mon-Sat | 17:00 - 20:30",
   },
   {
     id: "sunday_menu",
@@ -134,7 +134,7 @@ export const menuImages = [
     img: sundayLunch,
     alt: "Sunday Lunch Menu Image",
     body: "",
-    times: "",
+    times: "Sun | 12:00 - 19:00",
   },
   {
     id: "childrens_menu",
