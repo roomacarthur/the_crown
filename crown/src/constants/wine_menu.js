@@ -4,7 +4,7 @@ export const Wine_Menu = [
     {
       name: "Wine Menu",
       img: wine,
-      info: "",
+      info: "Caroline is loveley",
       menu_products: [
         {
           title: "White",

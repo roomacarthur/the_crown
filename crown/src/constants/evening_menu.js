@@ -9,7 +9,7 @@ export const Evening_Menu = [
           {
               name: "Chilli & Ginger Goujons",
               body: "Chicken goujons server with an Asain style slaw and a honey BBQ glaze.",
-              tags: "",
+              tags: "Super freekin tasty",
               price: "8.95",
           },
           {

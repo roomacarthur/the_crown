@@ -12,6 +12,7 @@ const Menu = (props) => {
           <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
             <img src={menu.img} className='w-[100%] h-[400px] object-cover rounded-lg shadow-lg'></img>
             <h1 className={`${styles.heading2}`}>{menu.name}</h1>
+            <h1 className={`${styles.heading2}`}>{menu.info}</h1>
             {menu.menu_products.map((section) => (
               <div key={section.title}>
                 <h3 className='font-bold text-[30px] uppercase tracking-[1.2px] text-blue2 mt-[25px]'>{section.title}</h3>
