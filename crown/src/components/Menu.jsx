@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from "../styles";
 
-const Menus = () => {
+
+const Menus = (props) => {
   return (
     <div className={`${styles.flexStart} bg-background`}>
       <div className={`${styles.boxWidth}`}>
