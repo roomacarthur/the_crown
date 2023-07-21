@@ -1,9 +1,6 @@
-import { meal1 }from '../assets'
-
-export const Lunch_Menu = [
+export const Sunday_Menu = [
   {
-    name: "Lunch Menu",
-    img: meal1,
+    name: "Sunday Menu",
     info: "",
     menu_products: [
       {

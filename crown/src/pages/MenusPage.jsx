@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Menus from '../components/Menus';
 
-export default function Home() {
+export default function MenusPage() {
   return (
     <>
         <Navbar />
