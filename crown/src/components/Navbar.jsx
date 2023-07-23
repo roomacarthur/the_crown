@@ -11,10 +11,12 @@ const Navbar = () => {
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
     <div className={`${styles.boxWidth}`}>
     <nav className="w-full flex py-6 justify-between items-center navbar">
+      <a href="/">
       <img 
         src={crown_gold} 
         alt="The Crown"
         className='w-[100px] h-[100px]'></img>
+      </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
       {navLinks.map((nav, index) => (
         <li

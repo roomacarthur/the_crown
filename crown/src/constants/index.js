@@ -2,7 +2,7 @@ import { facebook, instagram, untappd, meal1, steak, sundayLunch, wine, kidsMeal
 
 export const navLinks = [
     {
-        id: "home",
+        id: "",
         title: "Home",
     },
     {

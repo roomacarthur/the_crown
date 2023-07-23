@@ -4,7 +4,7 @@ export const Wine_Menu = [
     {
       name: "Wine Menu",
       img: wine,
-      info: "Caroline is loveley",
+      info: "All our wine is handpicked by our great suppliers, Ake & Huphries based in Harrogate ",
       menu_products: [
         {
           title: "White",
