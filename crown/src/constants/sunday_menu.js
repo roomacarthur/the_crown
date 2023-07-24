@@ -37,87 +37,27 @@ export const Sunday_Menu = [
         ],
     },
     {
-      title: "Burgers",
-      info: "All our burgers come in a brioche bun with skin on chips.",
-      menuItems: [
-        {
-            name: "Crown Burger",
-            body: "Wensleydale beef patty topped with a flat mushroom, fried egg, bacon and grilled cheese. Served with onion rings and homemade slaw.",
-            tags: "",
-            price: "18.95",
-        },
-        {
-            name: "Sticky Korean Burger",
-            body: "",
-            tags: "",
-            price: "18.95",
-        },
-        {
-            name: "Cheese & Bacon Burger",
-            body: "",
-            tags: "",
-            price: "16.50",
-        },
-      ],
-    },
-    {
       title: "Mains",
       info: "",
       menuItems: [
         {
-            name: "Fish & Chips",
-            body: "Freshly battered cod served with mushy peas, skin on chips, lemon wedge, mixed salad and homemade tartar sauce.",
+            name: "Sunday Roast Dinner",
+            body: "Pick from our choice of sunday meats, served with all the favorite traditional trimmings and gravy from the roast.",
             tags: "",
-            price: "17.00",
+            price: "£14.95",
         },
         {
-            name: "Spicy Bean Chilli",
-            body: "Vegan-based tomato bean chilli. Served with rice, tortilla chips and a dollop of sour cream.",
-            tags: "Vegan",
-            price: "16.50",
+            name: "Sunday Yorkshire Pudding Wrap",
+            body: "Pick from our choice of sunday meats, mashed potato and seasonal vegetables all wrapped up in a giant yorkshire pudding. Served with chips and gravy.",
+            tags: "",
+            price: "£9.95",
         },
         {
-            name: "Mac & Cheese",
-            body: "Homemade Bechamel sauce, cheese, bacon crumb and garlic bread.",
-            tags: "Vegetarian*",
-            price: "16.95",
-        },
-      ],
-    },
-    {
-      title: "Wraps",
-      info: "All our wraps come with sour cream, fresh guacamole, tortilla chips and mixed salad.",
-      menuItems: [
-        {
-            name: "Chicken Fajita",
-            body: "Chicken, peppers and onions cooked in our special fajita seasoning all wrapped up in a wheat tortilla.",
-            tags: "",
-            price: "10.95",
-          },
-        {
-            name: "Chicken & Cheese Quesadilla",
-            body: "tortilla filled with spiced chicken and cheese grilled till melted.",
-            tags: "",
-            price: "10.95",
-          },
-      ],
-    },
-    {
-      title: "Salads",
-      info: "",
-      menuItems: [
-        {
-            name: "Chicken Caesar",
-            body: "Iceberg lettuce in a caesar dressing. Served with diced bacon, grilled chicken and croutons.",
-            tags: "",
-            price: "14.95",
-          },
-        {
-            name: "Warm Goats Cheese",
-            body: "A Warm goats cheese wheel served on a bed of iceberg and red leaf. With caramelised green apples and red onion with a walnut and orange dressing. Topped with toasted walnuts.",
+            name: "Mushroom, Brie & Cranberry Wellington",
+            body: "Served with all the traditional vegetarian friendly sunday roast trimmings.",
             tags: "Vegetarian",
-            price: "15.95",
-          },
+            price: "£14.95",
+        },
       ],
     },
     {
@@ -125,17 +65,41 @@ export const Sunday_Menu = [
       info: "",
       menuItems: [
         {
-            name: "Wensleydale & Chutney",
-            body: "Wensleydale cheese and homemade chutney.",
-            tags: "Vegetarian",
-            price: "9.95",
-          },
+          name: "Hot Roast Sandwich",
+          body: "Pick from our choice of sunday meats, served with salad and crisps.",
+          tags: "",
+          price: "£9.95",
+        },
+        {
+          name: "Wensleydale & Chutney",
+          body: "Wensleydale cheese and homemade chutney.",
+          tags: "Vegetarian",
+          price: "£9.95",
+        },
       ],
     },
     {
       title: "Sides",
       info: "",
       menuItems: [
+        {
+          name: "Cauliflower Cheese Sharer",
+          body: "",
+          tags: "",
+          price: "£1.50",
+        },        
+        {
+          name: "Yorkshire Pudding",
+          body: "",
+          tags: "",
+          price: "£1.00",
+        },
+        {
+          name: "Roast Potatoes",
+          body: "",
+          tags: "",
+          price: "£1.50",
+        },
         {
             name: "Skin On Chips",
             body: "",
@@ -159,6 +123,24 @@ export const Sunday_Menu = [
             body: "",
             tags: "",
             price: "£3.00",
+          },
+        {
+            name: "Seasonal Vegetables",
+            body: "",
+            tags: "",
+            price: "£1.75",
+          },
+        {
+            name: "Jug of Gravy",
+            body: "",
+            tags: "",
+            price: "£1.25",
+          },
+        {
+            name: "Stuffing",
+            body: "",
+            tags: "",
+            price: "£1.50",
           },
       ],
     },

@@ -5,7 +5,6 @@ export const Evening_Menu = [
     name: "Evening Menu",
     img: meal2,
     info: "",
-    img: meal2,
     footer: "",
     menu_products: [
       {
@@ -14,7 +13,7 @@ export const Evening_Menu = [
           {
               name: "Chilli & Ginger Goujons",
               body: "Chicken goujons server with an Asain style slaw and a honey BBQ glaze.",
-              tags: "OUR FAVORITE",
+              tags: "",
               price: "£8.95",
           },
           {
@@ -42,23 +41,23 @@ export const Evening_Menu = [
       info: "All our burgers come in a brioche bun with skin on chips.",
       menuItems: [
         {
-            name: "Crown Burger",
-            body: "Wensleydale beef patty topped with a flat mushroom, fried egg, bacon and grilled cheese. Served with onion rings and homemade slaw.",
-            tags: "",
-            price: "£18.95",
-        },
-        {
-            name: "Sticky Korean Burger",
-            body: "",
-            tags: "",
-            price: "£18.95",
-        },
-        {
-            name: "Cheese & Bacon Burger",
-            body: "",
-            tags: "",
-            price: "16.50",
-        },
+          name: "Crown Burger",
+          body: "Wensleydale beef patty topped with a flat mushroom, fried egg, bacon and grilled cheese. Served with onion rings and homemade slaw.",
+          tags: "",
+          price: "£18.95",
+      },
+      {
+          name: "Sticky Korean Burger",
+          body: "Sticky honey and soy BBQ sauce covered fried chicken fillet served with asian slaw.",
+          tags: "",
+          price: "£18.95",
+      },
+      {
+          name: "Cheese & Bacon Burger",
+          body: "Wensleydale beef patty or chicken fillet served with bacon, grilled cheese, tomato, lettuce, onions and sliced pickles.",
+          tags: "",
+          price: "£16.50 | Add onion rings & Slaw +£2.50",
+      },
       ],
     },
     {
@@ -69,19 +68,19 @@ export const Evening_Menu = [
             name: "Fish & Chips",
             body: "Freshly battered cod served with mushy peas, skin on chips, lemon wedge, mixed salad and homemade tartar sauce.",
             tags: "",
-            price: "17.00",
+            price: "£17.00",
         },
         {
             name: "Spicy Bean Chilli",
             body: "Vegan-based tomato bean chilli. Served with rice, tortilla chips and a dollop of sour cream.",
             tags: "Vegan",
-            price: "16.50",
+            price: "£16.50",
         },
         {
             name: "Mac & Cheese",
             body: "Homemade Bechamel sauce, cheese, bacon crumb and garlic bread.",
             tags: "Vegetarian*",
-            price: "16.95",
+            price: "£16.95",
         },
         {
             name: "Crown Pie",

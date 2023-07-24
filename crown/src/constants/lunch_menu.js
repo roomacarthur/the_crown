@@ -122,7 +122,7 @@ export const Lunch_Menu = [
     },
     {
       title: "Sandwiches",
-      info: "",
+      info: "All our sandwiches are served ",
       menuItems: [
         {
             name: "Wensleydale & Chutney",
