@@ -8,9 +8,9 @@ const About = () => {
         <div className={`${styles.boxWidth}`}>
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <span className='relative left-[-10px] text-[16px] uppercase text-accent tracking-[1.5px] font-roboto font-bold'>
+        <h1 className='relative left-[-10px] text-[16px] uppercase text-accent tracking-[1.5px] font-roboto font-bold'>
             - The Crown 
-          </span>
+          </h1>
         <h2 className={`${styles.heading2}`}>
           A Taste of Yorkshire in the Heart of Hawes
         </h2>

@@ -17,12 +17,13 @@ const Menu = (props) => {
               <div key={section.title}>
                 <h3 className='font-bold text-[30px] uppercase tracking-[1.2px] text-blue2 mt-[25px]'>{section.title}</h3>
                 <p className={`${styles.paragraph}`}>{section.info}</p>
-                <hr className='w-[400px] mb-[15px]'></hr>
-                <ul className='ml-[25px]'>
+                <hr className='mw-[400px] mb-[15px]'></hr>
+                <ul className='ml-[25px] pr-[10px]w-full'>
                   {section.menuItems && section.menuItems.map((menuItem, index) => (
-                      <li key={index}>
+                      <li className='w-full' 
+                      key={index}>
                         <h4 className='text-[20px] font-bold text-brown mt-3 pt-[25px]'>{menuItem.name}<span className="text-[12px] font-bold pl-2 italic text-accent">{menuItem.tags}</span></h4>
-                        <p className={`${styles.paragraph}`}>{menuItem.body}</p>
+                        <p className={`${styles.paragraph} mw-[300px]`}>{menuItem.body}</p>
                         <p className={`font-bold`}>{menuItem.price}</p>
                       </li>
                     ))}
