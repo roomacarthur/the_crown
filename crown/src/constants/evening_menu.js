@@ -1,6 +1,9 @@
+import { meal2 }from '../assets'
+
 export const Evening_Menu = [
   {
     name: "Evening Menu",
+    img: meal2,
     info: "",
     menu_products: [
       {
@@ -9,26 +12,26 @@ export const Evening_Menu = [
           {
               name: "Chilli & Ginger Goujons",
               body: "Chicken goujons server with an Asain style slaw and a honey BBQ glaze.",
-              tags: "Super freekin tasty",
-              price: "8.95",
+              tags: "",
+              price: "£8.95",
           },
           {
               name: "Soup Of The Day",
               body: "Served with warm crusty bread and butter. See our specials board for the days soup.",
               tags: "Vegan*",
-              price: "6.95",
+              price: "£6.95",
           },
           {
               name: "Bruschetta",
               body: "Mixed cherry tomatoes, olives & garlic served on warm crusty bruschetta and topped with a balsamic glaze & basil volute.",
               tags: "Vegan",
-              price: "7.95 | £14.95 Sharer",
+              price: "£7.95 | £14.95 Sharer",
           },
           {
               name: "Stuffed Flat Mushrooms",
               body: "A flat mushroom stuffed with stilton, onion, spinach and wrapped in bacon. Served on a bed of mixed salad.",
               tags: "",
-              price: "7.95",
+              price: "£7.95",
           },
         ],
     },
@@ -52,7 +55,7 @@ export const Evening_Menu = [
             name: "Cheese & Bacon Burger",
             body: "",
             tags: "",
-            price: "16.50",
+            price: "16.50 | Add onion rings £1.50",
         },
       ],
     },
@@ -78,24 +81,48 @@ export const Evening_Menu = [
             tags: "Vegetarian*",
             price: "16.95",
         },
-      ],
-    },
-    {
-      title: "Wraps",
-      info: "All our wraps come with sour cream, fresh guacamole, tortilla chips and mixed salad.",
-      menuItems: [
         {
-            name: "Chicken Fajita",
-            body: "Chicken, peppers and onions cooked in our special fajita seasoning all wrapped up in a wheat tortilla.",
+            name: "Crown Pie",
+            body: "Wensleydale steak chunks slow cooked in Theakstons ale and seasonal vegetables, with short crust pastry lid. Served with skin on chips, garden peas and rich gravy.",
             tags: "",
-            price: "10.95",
-          },
+            price: "£19.00",
+        },
         {
-            name: "Chicken & Cheese Quesadilla",
-            body: "tortilla filled with spiced chicken and cheese grilled till melted.",
+            name: "Cajun Chicken",
+            body: "Cajun and lime marinated chicken butterfly with garlic sauteed potatoes, chorizo, peas and a creamy cajun sauce.",
             tags: "",
-            price: "10.95",
-          },
+            price: "£21.00",
+        },
+        {
+            name: "Wensleydale Lamb Shoulder",
+            body: "Slow-roasted locally sourced lamb shoulder served with creamy mashed potatoes, seasonal vegetables and a mint and redcurrant gravy.",
+            tags: "",
+            price: "£23.00",
+        },
+        {
+            name: "Fillet of Seabass",
+            body: "Served on a seafood risotto, cherry tomatoes, lemon and basil oil.",
+            tags: "",
+            price: "£21.00",
+        },
+        {
+            name: "Pan fried pork medallions",
+            body: "Served with cheesy wholegrain mustard dauphinoise potatoes, caramalised apple and calvados cream sauce and seasonal vegetables.",
+            tags: "",
+            price: "£20.00",
+        },
+        {
+            name: "Koream Steak & Prawn Stir fry",
+            body: "Served on a bed of noodles with peppers, onions and a sticky honey and soy sauce.",
+            tags: "",
+            price: "£18.00",
+        },
+        {
+            name: "Lasagne",
+            body: "Homemade beef ragu with layers of pasta, baked with bechamel and cheese. served with garlic bread and mixed salad.",
+            tags: "",
+            price: "£17.00",
+        },
       ],
     },
     {
@@ -106,25 +133,13 @@ export const Evening_Menu = [
             name: "Chicken Caesar",
             body: "Iceberg lettuce in a caesar dressing. Served with diced bacon, grilled chicken and croutons.",
             tags: "",
-            price: "14.95",
+            price: "£14.95",
           },
         {
             name: "Warm Goats Cheese",
             body: "A Warm goats cheese wheel served on a bed of iceberg and red leaf. With caramelised green apples and red onion with a walnut and orange dressing. Topped with toasted walnuts.",
             tags: "Vegetarian",
-            price: "15.95",
-          },
-      ],
-    },
-    {
-      title: "Sandwiches",
-      info: "",
-      menuItems: [
-        {
-            name: "Wensleydale & Chutney",
-            body: "Wensleydale cheese and homemade chutney.",
-            tags: "Vegetarian",
-            price: "9.95",
+            price: "£15.95",
           },
       ],
     },
