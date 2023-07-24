@@ -22,7 +22,7 @@ const Navbar = () => {
         <li
           key={nav.id}
           className={`font-roboto font-bold tracking-[1.5px] cursor-pointer text-[16px] text-white hover:text-accent ${index === navLinks.length -1 ? "mr-o" : "mr-10"}`}>
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.url}`}>{nav.title}</a>
           </li>
       ))}
     </ul>
@@ -34,14 +34,15 @@ const Navbar = () => {
       onClick={() => setToggle((prev) => !prev)}
       />
       <div
-        className={`${toggle ? "flex" : "hidden"} bg-accent text-background p-6 absolute top-20 right-0 mx-4 min-w-[140px] rounded-xl sidebar`}
+        className={`${toggle ? "flex" : "hidden"} bg-blue2 text-background p-6 absolute top-[140px] right-0 mx-4 min-w-[140px] rounded-sm sidebar`}
       >
         <ul className="list-none flex flex-col justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
               className={`font-roboto font-bold tracking-[1.5px]cursor-pointer text-[16px] text-background hover:text-white ${index === navLinks.length -1 ? "mb-o" : "mb-4"}`}>
-                <a href={`${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.url}`}>{nav.title}</a>
+                <hr></hr>
               </li>
           ))}
         </ul>

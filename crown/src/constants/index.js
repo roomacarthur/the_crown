@@ -2,20 +2,24 @@ import { facebook, instagram, untappd, meal1, steak, sundayLunch, wine, kidsMeal
 
 export const navLinks = [
     {
-        id: "",
+        id: "home",
         title: "Home",
+        url: "/",
     },
     {
         id: "menus",
         title: "Our Menus",
+        url: "/menus",
     },
     {
         id: "bookings",
         title: "Bookings",
+        url: "/bookings",
     },
     {
         id: "contact",
         title: "Contact",
+        url: "/contact",
     },
 ]
 
