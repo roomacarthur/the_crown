@@ -5,6 +5,8 @@ export const Evening_Menu = [
     name: "Evening Menu",
     img: meal2,
     info: "",
+    img: meal2,
+    footer: "",
     menu_products: [
       {
         title: "Starters",
@@ -12,8 +14,8 @@ export const Evening_Menu = [
           {
               name: "Chilli & Ginger Goujons",
               body: "Chicken goujons server with an Asain style slaw and a honey BBQ glaze.",
-              tags: "",
-              price: "£8.95",
+              tags: "Super freekin tasty",
+              price: "8.95",
           },
           {
               name: "Soup Of The Day",
@@ -43,19 +45,19 @@ export const Evening_Menu = [
             name: "Crown Burger",
             body: "Wensleydale beef patty topped with a flat mushroom, fried egg, bacon and grilled cheese. Served with onion rings and homemade slaw.",
             tags: "",
-            price: "18.95",
+            price: "£18.95",
         },
         {
             name: "Sticky Korean Burger",
             body: "",
             tags: "",
-            price: "18.95",
+            price: "£18.95",
         },
         {
             name: "Cheese & Bacon Burger",
             body: "",
             tags: "",
-            price: "16.50 | Add onion rings £1.50",
+            price: "16.50",
         },
       ],
     },
@@ -140,6 +142,36 @@ export const Evening_Menu = [
             body: "A Warm goats cheese wheel served on a bed of iceberg and red leaf. With caramelised green apples and red onion with a walnut and orange dressing. Topped with toasted walnuts.",
             tags: "Vegetarian",
             price: "£15.95",
+          },
+      ],
+    },
+    {
+      title: "Sides",
+      info: "",
+      menuItems: [
+        {
+            name: "Skin On Chips",
+            body: "",
+            tags: "Add Cheese 50p",
+            price: "£2.50",
+          },
+        {
+            name: "Garlic Bread",
+            body: "",
+            tags: "Add Cheese 50p",
+            price: "£3.50",
+          },
+        {
+            name: "Onion Rings",
+            body: "",
+            tags: "",
+            price: "£3.50",
+          },
+        {
+            name: "Garden Salad",
+            body: "",
+            tags: "",
+            price: "£3.00",
           },
       ],
     },

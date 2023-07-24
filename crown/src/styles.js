@@ -2,7 +2,7 @@ const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
     heading2: "text-brown font-roboto font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full tracking-[1.5px]",
-    paragraph: "text-brown tracking-[1px]font-roboto font-normal  text-[18px] leading-[30.8px]",
+    paragraph: "text-brown tracking-[1px] font-roboto font-normal  text-[18px] leading-[30.8px] mw-[275px]",
 
     paragraph2: "text-dimWhite tracking-[1px] font-roboto text-[18px] tracking-[1.2px] leading-[25px]",
   

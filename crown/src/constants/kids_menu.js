@@ -1,7 +1,11 @@
+import { kidsMeal }from '../assets'
+
 export const Kids_Menu = [
   {
     name: "Childrens Menu",
+    img: kidsMeal,
     info: "",
+    footer: "",
     menu_products: [
       {
         title: "Starters",
