@@ -27,3 +27,14 @@ hello@thecrownhawes.com
   RewriteRule . /index.html [L]
 </IfModule>
 ```
+
+## Individual page title 
+
+```javascript
+import { useEffect } from 'react';
+
+useEffect(() => {
+let title = "<Site Name> | <Custom Page Title>"
+document.title = title;
+});
+```
