@@ -31,13 +31,13 @@ const Contact = () => {
           <p className={`${styles.paragraph} md:max-w-[70%] my-[30px]`}>If you have any questions or would just like to get in touch fill out the form below or call us on 01969 667017</p>
           <form ref={form} onSubmit={sendEmail} className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-[25px]'>
             <label className='block text-gray-700 text-sm font-bold mb-2 mt-2'>Name</label>
-            <input required type="text" name="user_name" className='bg-background shadow appearance-none border rounded w-full py-2 px-3 text-brown leading-tight focus:outline-none focus:shadow-outline' />
+            <input required type="text" name="user_name" className='bg-white shadow appearance-none border rounded w-full py-2 px-3 text-brown leading-tight focus:outline-none focus:shadow-outline' />
             <label className='block text-gray-700 text-sm font-bold mb-2 mt-2'>Email</label>
-            <input required type="email" name="user_email" className='bg-background shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' />
+            <input required type="email" name="user_email" className='bg-white shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' />
             <label className='block text-gray-700 text-sm font-bold mb-2 mt-2'>Contact Number</label>
-            <input required type="tel" name="user_number" className='bg-background shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' />
+            <input required type="tel" name="user_number" className='bg-white shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' />
             <label className='block text-gray-700 text-sm font-bold mb-2 mt-2'>Message</label>
-            <textarea required name="message" className='bg-background shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline min-h-[200px] ' />
+            <textarea required name="message" className='bg-white shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline min-h-[200px] ' />
             <button type="submit" value="send" className={`uppercase bg-blue2 hover:bg-blue-700 text-white hover:text-accent font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-2`}>Submit</button>
           </form>
           </div>

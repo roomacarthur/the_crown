@@ -12,7 +12,8 @@ module.exports = {
         accent: "#B1955F",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
-        background: "#F3FFFA",
+        // background: "#F3FFFA",
+        background: "#D8CAAF",
         brown: "#342A18",
       },
       fontFamily: {

@@ -22,7 +22,7 @@ const Menus = () => {
                     <p className={`${styles.paragraph}`}>
                       {menu.body}
                     </p>
-                    <p className='font-bold text-[12px]'>{menu.times}</p>
+                    <p className='font-bold text-[12px] py-2'>{menu.times}</p>
                   </div>
                 </div>
                 </a>
