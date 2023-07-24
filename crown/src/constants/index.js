@@ -117,7 +117,7 @@ export const menuImages = [
     title: "Lunch Menu",
     img: meal1,
     alt: "Lunch Menu Image",
-    body: "Our Lunch Menu is packed with all your favorites and light bites ",
+    body: "Our Lunch Menu is packed with all your favorites and light bites.",
     times: "Mon-Sat | 12:00 - 15:00"
   },
   {
@@ -125,7 +125,7 @@ export const menuImages = [
     title: "Evening Menu",
     img: steak,
     alt: "Evening Menu Image",
-    body: "",
+    body: "The perfect way to end your day of exploring the Yorkshire Dales.",
     times: "Mon-Sat | 17:00 - 20:30",
   },
   {
@@ -133,23 +133,23 @@ export const menuImages = [
     title: "Sunday Lunch Menu",
     img: sundayLunch,
     alt: "Sunday Lunch Menu Image",
-    body: "",
+    body: "Your sunday favorites cooked for you.",
     times: "Sun | 12:00 - 19:00",
   },
   {
     id: "childrens_menu",
     title: "Children's Menu",
     img: kidsMeal,
-    alt: "Sunday Lunch Menu Image",
-    body: "",
+    alt: "Childrens Menu Image",
+    body: "Healthy childrens meals to keep the little ones fueled.",
     times: "Available all week.",
   },
   {
     id: "wine_menu",
     title: "Wine Menu",
     img: wine,
-    alt: "Sunday Lunch Menu Image",
-    body: "",
+    alt: "Wine Menu Image",
+    body: "Our favorite hand picked wines.",
   },
 ]
 

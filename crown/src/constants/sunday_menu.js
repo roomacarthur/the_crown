@@ -1,7 +1,11 @@
+import { sundayLunch }from '../assets'
+
 export const Sunday_Menu = [
   {
     name: "Sunday Menu",
     info: "",
+    img: sundayLunch,
+    footer: "",
     menu_products: [
       {
         title: "Starters",
@@ -10,25 +14,25 @@ export const Sunday_Menu = [
               name: "Chilli & Ginger Goujons",
               body: "Chicken goujons server with an Asain style slaw and a honey BBQ glaze.",
               tags: "",
-              price: "8.95",
+              price: "£8.95",
           },
           {
               name: "Soup Of The Day",
               body: "Served with warm crusty bread and butter. See our specials board for the days soup.",
               tags: "Vegan*",
-              price: "6.95",
+              price: "£6.95",
           },
           {
               name: "Bruschetta",
               body: "Mixed cherry tomatoes, olives & garlic served on warm crusty bruschetta and topped with a balsamic glaze & basil volute.",
               tags: "Vegan",
-              price: "7.95 | £14.95 Sharer",
+              price: "£7.95 | £14.95 Sharer",
           },
           {
               name: "Stuffed Flat Mushrooms",
               body: "A flat mushroom stuffed with stilton, onion, spinach and wrapped in bacon. Served on a bed of mixed salad.",
               tags: "",
-              price: "7.95",
+              price: "£7.95",
           },
         ],
     },
@@ -125,6 +129,36 @@ export const Sunday_Menu = [
             body: "Wensleydale cheese and homemade chutney.",
             tags: "Vegetarian",
             price: "9.95",
+          },
+      ],
+    },
+    {
+      title: "Sides",
+      info: "",
+      menuItems: [
+        {
+            name: "Skin On Chips",
+            body: "",
+            tags: "Add Cheese 50p",
+            price: "£2.50",
+          },
+        {
+            name: "Garlic Bread",
+            body: "",
+            tags: "Add Cheese 50p",
+            price: "£3.50",
+          },
+        {
+            name: "Onion Rings",
+            body: "",
+            tags: "",
+            price: "£3.50",
+          },
+        {
+            name: "Garden Salad",
+            body: "",
+            tags: "",
+            price: "£3.00",
           },
       ],
     },

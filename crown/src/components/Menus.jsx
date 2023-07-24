@@ -10,7 +10,7 @@ const Menus = () => {
           <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
             <h1 className={`${styles.heading2}`}>Our Menus</h1>
             <p className={`${styles.paragraph} md:max-w-[70%] my-[30px]`}>At The Crown, we take pride in offering an unforgettable dining experience. Our food menu features a delightful selection of dishes crafted with locally sourced ingredients. From hearty classics to innovative creations, each dish is cooked to perfection, reflecting the rich culinary heritage of the Yorkshire Dales. Explore our menus below and prepare your taste buds for a mouthwatering adventure.</p>
-            <div className={`${styles.flexCenter} justify-content flex-1 md:flex-row flex flex-col flex-wrap`}>
+            <div className={`${styles.flexCenter} ${styles.section} justify-content flex-1 md:flex-row flex flex-col flex-wrap w-full`}>
               {menuImages.map((menu, index) => (
                 <a key={menu.id} href={menu.id}>
                 <div key={menu.id} className='h-[600px] max-w-sm rounded overflow-hidden shadow-lg m-[20px] hover:scale-105'>
@@ -29,7 +29,7 @@ const Menus = () => {
               ))}
             </div>
             <h2 className={`${styles.heading2}`}>More Info</h2>
-            <p>For more information regarding our menus, please don't hesitate to get in touch!</p>
+            <p className={`${styles.paragraph}`}>For more information regarding our menus, please don't hesitate to get in touch!</p>
           </div>
       </section>
     </div>

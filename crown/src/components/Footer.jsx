@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
         <p className="font-poppins font-normal text-center text-[14px] leading-[27px] text-white">{getCurrentYear()} The Crown Pub Hawes Ltd. All Rights Reserved.</p>
-        <div className="flex flex-rwo md:mt-0 mt-6">
+        <div className="flex flex-row md:mt-0 mt-6">
           <p className='text-violet-400 text-[12px]'>Site by <a href="https://www.roomacarthur.dev" className='font-bold hover:text-yellow-300' target="_blank">Roo</a></p>
         </div>
       </div>

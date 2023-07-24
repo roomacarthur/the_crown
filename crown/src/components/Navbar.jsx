@@ -21,7 +21,7 @@ const Navbar = () => {
       {navLinks.map((nav, index) => (
         <li
           key={nav.id}
-          className={`font-roboto font-bold tracking-[1.5px] cursor-pointer text-[16px] text-white hover:text-accent ${index === navLinks.length -1 ? "mr-o" : "mr-10"}`}>
+          className={`font-roboto font-bold tracking-[1.5px] cursor-pointer text-[16px] text-white hover:text-accent ${index === navLinks.length -1 ? "mr-o" : "mr-10"} uppercase`}>
             <a href={`${nav.url}`}>{nav.title}</a>
           </li>
       ))}
@@ -40,9 +40,9 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-roboto font-bold tracking-[1.5px]cursor-pointer text-[16px] text-background hover:text-white ${index === navLinks.length -1 ? "mb-o" : "mb-4"}`}>
+              className={`font-roboto font-bold tracking-[1.5px]cursor-pointer text-[16px] text-background hover:text-white ${index === navLinks.length -1 ? "mb-o" : "mb-4"} uppercase`}>
                 <a href={`${nav.url}`}>{nav.title}</a>
-                <hr></hr>
+                <hr className='bg-accent'></hr>
               </li>
           ))}
         </ul>
