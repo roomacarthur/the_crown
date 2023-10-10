@@ -5,20 +5,20 @@ export const Kids_Menu = [
     name: "Children's Menu",
     img: kidsMeal,
     info: "All children's meals include an ice cream pudding.",
-    footer: "* = Mac & Cheese is available with or without bacon crumb.",
+    footer: "",
     menu_products: [
     {
       title: "Mains",
       info: "",
       menuItems: [
         {
-            name: "Chicken Goujons",
+            name: "Chicken Goujons, Chips & Peas",
             body: "",
             tags: "",
             price: "7.95",
         },
         {
-            name: "Fish Goujons",
+            name: "Fish Goujons, Chips & Peas",
             body: "",
             tags: "",
             price: "7.95",
@@ -27,12 +27,6 @@ export const Kids_Menu = [
             name: "Sausage, Chips & Beans",
             body: "",
             tags: "",
-            price: "7.95",
-        },
-        {
-            name: "Mac & Cheese",
-            body: "",
-            tags: "Vegetarian*",
             price: "7.95",
         },
         {
